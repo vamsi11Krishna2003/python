@@ -1,0 +1,10 @@
+mylist=[1,2,3,4,5,6,7,8,9,10]
+print("length of mylist is:",len(mylist))
+myset=set(mylist)
+print("length of myset is:",len(myset))
+if len(mylist)!=len(myset):
+    print("duplicates found in the list")
+    print("The sorted list is=",myset)    
+else:
+    print(" No duplicates found in the list")
+    print("The sorted list is",mylist)
