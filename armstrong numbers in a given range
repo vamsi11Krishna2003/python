@@ -1,0 +1,11 @@
+low=int(input("lower boundary is="))
+high=int(input("higher boundary is="))
+for n in range(low,high+1):
+    sum=0
+    temp=n
+    while(temp>0):
+        rem=temp%10
+        sum=sum+rem**3
+        temp=temp//10
+    if n==sum:
+        print(n)
